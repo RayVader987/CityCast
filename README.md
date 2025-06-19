@@ -59,21 +59,21 @@ CREATE TABLE city_weather_log (
 ### 3. Install required dependencies
 pip install requests mysql-connector-python speechrecognition pyttsx3 geocoder pycountry google-generativeai
 
-###4. Configure the App
+### 4. Configure the App
 API_KEY = "your_openweather_api_key"
 GEMINI_API_KEY = "your_gemini_api_key"
 
-🧑‍💻 How to Use
-Step 1: Run the App
+### 5. How to Use
+## Step 1: Run the App
 In bash terminal:
 python citycast.py
 
-Step 2: Choose Input Type
+## Step 2: Choose Input Type
 1 → Type your inputs manually
 
 2 → Use your microphone to speak
 
-Step 3: Choose Task
+## Step 3: Choose Task
 Search a city → Get weather for any city
 
 My location → Detect your location and fetch weather
@@ -82,21 +82,21 @@ Weather chatbot → Ask questions like “Is it raining in Delhi?”
 
 Precise location weather → Use IP to get accurate current location weather
 
-💬 Example Voice Commands
+### 6. Example Voice Commands
 “Search city” → then say “Kolkata”
 
 “Chatbot” → then ask “Will it rain in Mumbai tomorrow?”
 
 “Precise location” → gets your current location via IP
 
-📝 To Do / Ideas for Future
+### 7. To Do / Ideas for Future
 1.Export weather history to CSV
 2.Add hourly forecasts
 3.GUI version with Tkinter or Streamlit
 4.Mobile-friendly version
 5.Reminder notifications for rain/cold days
 
-Created By-
-Raima Deb
+### Created By-
+### Raima Deb
 2nd-year Computer Science Student
 
