@@ -2,12 +2,12 @@ import requests
 import mysql.connector
 
 # === CONFIG ===
-API_KEY = "01d17ce71740073f93e2b714e27e6eef"  # Replace with your real API key
+API_KEY = "Api_key from openweather_app"  # Replace with your real API key
 
 DB_CONFIG = {
     'host': '127.0.0.1',
     'user': 'root',
-    'password': 'raima1105',  # Replace with your MySQL password
+    'password': 'your_mysql_password',  # Replace with your MySQL password
     'database': 'weather_app'
 }
 
